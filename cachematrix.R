@@ -4,6 +4,7 @@
 ## get the value of the inverse
 
 ## makeCacheMatrix function
+## I set the input x as a matrix
 makeCacheMatrix<-function(x=matrix()){
         m <- NULL
         set <- function(y) {

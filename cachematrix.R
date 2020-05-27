@@ -2,6 +2,8 @@
 ## get the value of the matrix
 ## set the value of the inverse
 ## get the value of the inverse
+
+## makeCacheMatrix function
 makeCacheMatrix<-function(x=matrix()){
         m <- NULL
         set <- function(y) {
@@ -16,6 +18,9 @@ makeCacheMatrix<-function(x=matrix()){
             getinverse=getinverse)
    }
 ## the above function calculates the inverse of the special matrix
+
+##cacheSolve function
+
 cacheSolve<-function(x, ...){
         ## Return a matrix that is the inverse of 'x'
     m<-x$getinverse()
